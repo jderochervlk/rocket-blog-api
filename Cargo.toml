@@ -4,4 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+dotenvy = "0.15.7"
+postgres = "0.19.14"
 rocket = "0.5.1"
+uuid = { version = "1.24.0", features = ["v4"] }
